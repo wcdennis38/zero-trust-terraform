@@ -1,0 +1,63 @@
+{
+    "NetworkInterfaces": [
+        {
+            "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-52-90-236-218.compute-1.amazonaws.com",
+                "PublicIp": "52.90.236.218"
+            },
+            "Attachment": {
+                "AttachTime": "2026-06-17T02:28:00+00:00",
+                "AttachmentId": "eni-attach-0870d759a5b1eee18",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "NetworkCardIndex": 0,
+                "InstanceId": "i-0d83770fc36db81dc",
+                "InstanceOwnerId": "150460248370",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "us-east-1c",
+            "Description": "",
+            "Groups": [
+                {
+                    "GroupId": "sg-005c5caa7c25dfaf8",
+                    "GroupName": "ec2-ssh-sg"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "0a:ff:ff:6f:fa:e9",
+            "NetworkInterfaceId": "eni-0fccc7f7219e1e26c",
+            "OwnerId": "150460248370",
+            "PrivateDnsName": "ip-10-0-1-106.ec2.internal",
+            "PublicDnsName": "ec2-52-90-236-218.compute-1.amazonaws.com",
+            "PublicIpDnsNameOptions": {
+                "DnsHostnameType": "public-ipv4-dns-name",
+                "PublicIpv4DnsName": "ec2-52-90-236-218.compute-1.amazonaws.com"
+            },
+            "PrivateIpAddress": "10.0.1.106",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "IpOwnerId": "amazon",
+                        "PublicDnsName": "ec2-52-90-236-218.compute-1.amazonaws.com",
+                        "PublicIp": "52.90.236.218"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-0-1-106.ec2.internal",
+                    "PrivateIpAddress": "10.0.1.106"
+                }
+            ],
+            "RequesterManaged": false,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-0525a28ab4ebdcd70",
+            "TagSet": [],
+            "VpcId": "vpc-01dcb813ce93e7825",
+            "Operator": {
+                "Managed": false
+            },
+            "AvailabilityZoneId": "use1-az4"
+        }
+    ]
+}

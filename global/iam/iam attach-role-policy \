@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "ec2-zero-trust-role",
+        "RoleId": "AROASGCBBGEZGFIS6AYOJ",
+        "Arn": "arn:aws:iam::150460248370:role/ec2-zero-trust-role",
+        "CreateDate": "2026-06-18T17:42:40+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {}
+    }
+}

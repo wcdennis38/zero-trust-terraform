@@ -1,0 +1,79 @@
+{
+    "InstanceInformationList": [
+        {
+            "InstanceId": "i-0251ef36c9a4cc626",
+            "PingStatus": "Online",
+            "LastPingDateTime": "2026-06-18T18:07:20.985000+00:00",
+            "AgentVersion": "3.3.4108.0",
+            "IsLatestVersion": false,
+            "PlatformType": "Linux",
+            "PlatformName": "Amazon Linux",
+            "PlatformVersion": "2023",
+            "ResourceType": "EC2Instance",
+            "IPAddress": "192.168.13.126",
+            "ComputerName": "ip-192-168-13-126.ec2.internal",
+            "AssociationStatus": "Success",
+            "LastAssociationExecutionDate": "2026-06-18T17:44:31.455000+00:00",
+            "LastSuccessfulAssociationExecutionDate": "2026-06-18T17:44:31.455000+00:00",
+            "AssociationOverview": {
+                "DetailedStatus": "InvalidPlatform",
+                "InstanceAssociationStatusAggregatedCount": {
+                    "Skipped": 2,
+                    "Success": 5
+                }
+            },
+            "SourceId": "i-0251ef36c9a4cc626",
+            "SourceType": "AWS::EC2::Instance"
+        },
+        {
+            "InstanceId": "i-012844cc6d4f09287",
+            "PingStatus": "Online",
+            "LastPingDateTime": "2026-06-18T18:09:57.070000+00:00",
+            "AgentVersion": "3.3.4108.0",
+            "IsLatestVersion": false,
+            "PlatformType": "Linux",
+            "PlatformName": "Amazon Linux",
+            "PlatformVersion": "2023",
+            "ResourceType": "EC2Instance",
+            "IPAddress": "192.168.45.205",
+            "ComputerName": "ip-192-168-45-205.ec2.internal",
+            "AssociationStatus": "Success",
+            "LastAssociationExecutionDate": "2026-06-18T17:46:42.972000+00:00",
+            "LastSuccessfulAssociationExecutionDate": "2026-06-18T17:46:42.972000+00:00",
+            "AssociationOverview": {
+                "DetailedStatus": "InvalidPlatform",
+                "InstanceAssociationStatusAggregatedCount": {
+                    "Skipped": 2,
+                    "Success": 5
+                }
+            },
+            "SourceId": "i-012844cc6d4f09287",
+            "SourceType": "AWS::EC2::Instance"
+        },
+        {
+            "InstanceId": "i-00fa420b73563fdbc",
+            "PingStatus": "Online",
+            "LastPingDateTime": "2026-06-18T18:05:38.682000+00:00",
+            "AgentVersion": "3.3.4108.0",
+            "IsLatestVersion": false,
+            "PlatformType": "Linux",
+            "PlatformName": "Amazon Linux",
+            "PlatformVersion": "2023",
+            "ResourceType": "EC2Instance",
+            "IPAddress": "192.168.9.96",
+            "ComputerName": "ip-192-168-9-96.ec2.internal",
+            "AssociationStatus": "Success",
+            "LastAssociationExecutionDate": "2026-06-18T17:41:57.472000+00:00",
+            "LastSuccessfulAssociationExecutionDate": "2026-06-18T17:41:57.472000+00:00",
+            "AssociationOverview": {
+                "DetailedStatus": "InvalidPlatform",
+                "InstanceAssociationStatusAggregatedCount": {
+                    "Skipped": 2,
+                    "Success": 5
+                }
+            },
+            "SourceId": "i-00fa420b73563fdbc",
+            "SourceType": "AWS::EC2::Instance"
+        }
+    ]
+}

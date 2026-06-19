@@ -1,0 +1,73 @@
+{
+    "NatGateways": [
+        {
+            "CreateTime": "2026-06-18T18:36:09+00:00",
+            "DeleteTime": "2026-06-18T18:37:57+00:00",
+            "FailureCode": "Resource.AlreadyAssociated",
+            "FailureMessage": "Elastic IP address [eipalloc-077e0785302b9e0b5] is already associated",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-077e0785302b9e0b5",
+                    "NetworkInterfaceId": "eni-00cf57029e0745ed8",
+                    "PrivateIp": "172.31.80.227",
+                    "IsPrimary": true,
+                    "FailureMessage": "Elastic IP address [eipalloc-077e0785302b9e0b5] is already associated",
+                    "Status": "failed"
+                }
+            ],
+            "NatGatewayId": "nat-00a843dbb10a5b6a9",
+            "State": "failed",
+            "SubnetId": "subnet-0a3a7c35a528ebc6a",
+            "VpcId": "vpc-0e0b1116464c6ffab",
+            "Tags": [],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2026-06-18T18:34:06+00:00",
+            "DeleteTime": "2026-06-18T18:46:30+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-077e0785302b9e0b5",
+                    "NetworkInterfaceId": "eni-0f5884aa105c9189d",
+                    "PrivateIp": "172.31.92.121",
+                    "PublicIp": "100.51.35.121",
+                    "AssociationId": "eipassoc-0cff0cc515e5e2cc7",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0b97ffd4548e4b56c",
+            "State": "deleted",
+            "SubnetId": "subnet-0a3a7c35a528ebc6a",
+            "VpcId": "vpc-0e0b1116464c6ffab",
+            "Tags": [],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2026-06-18T18:47:34+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-077e0785302b9e0b5",
+                    "NetworkInterfaceId": "eni-0ed20fa02f4cebf5d",
+                    "PrivateIp": "172.31.88.105",
+                    "PublicIp": "100.51.35.121",
+                    "AssociationId": "eipassoc-04655792a2fe590dd",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-09edd6363b00526eb",
+            "State": "available",
+            "SubnetId": "subnet-0a3a7c35a528ebc6a",
+            "VpcId": "vpc-0e0b1116464c6ffab",
+            "Tags": [],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        }
+    ]
+}

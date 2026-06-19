@@ -1,0 +1,8 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.pem
+my-key
+envs/dev/*.tfstate
+envs/dev/*.tfstate.backup
